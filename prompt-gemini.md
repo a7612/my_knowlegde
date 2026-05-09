@@ -16,11 +16,13 @@ Yêu cầu:
 - Giải thích cả khía cạnh kỹ thuật lẫn pháp lý
 - Nội dung phải có chiều sâu, không giải thích sơ sài
 
-Cấu trúc bắt buộc gồm 4 phần:
+Cấu trúc bắt buộc gồm 6 phần:
 1. Mở đầu
 2. Nội dung
 3. Lưu ý
-4. Kết thúc
+4. Bảng thuật ngữ (Thuật ngữ, Loại từ (tiếng anh), ý nghĩa)
+5. Bảng từ khóa (Từ khóa, Loại từ (tiếng anh), ý nghĩa)
+6. Kết thúc
 
 Ưu tiên:
 - Bullet point nhiều tầng
