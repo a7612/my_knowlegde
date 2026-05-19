@@ -9,14 +9,17 @@ tags: ["owasp", "integrity", "deserialization", "code-signing", "cicd"]
 
 ## Các kịch bản rủi ro
 *   **Cập nhật phần mềm không được ký số**: Ứng dụng tự động tải và cài đặt bản cập nhật mà không kiểm tra chữ ký số để xác minh nguồn gốc.
-*   **Giải tuần tự hóa không an toàn (Insecure Deserialization)**: Chuyển đổi dữ liệu từ dạng byte (đã bị kẻ tấn công sửa đổi) trở lại thành đối tượng trong bộ nhớ, dẫn đến thực thi mã từ xa (RCE).
-*   **Thư viện từ nguồn không tin cậy**: Sử dụng module từ các CDN công cộng hoặc repository không được kiểm soát mà không kiểm tra mã băm (hash).
-*   **Thỏa hiệp Pipeline CI/CD**: Kẻ tấn công thay đổi mã trong quá trình build do hệ thống CI/CD không có cơ chế kiểm tra tính toàn vẹn chặt chẽ.
+*   **Giải tuần tự hóa không an toàn (Insecure Deserialization - CWE-502)**: Chuyển đổi dữ liệu từ dạng byte (đã bị kẻ tấn công sửa đổi) trở lại thành đối tượng trong bộ nhớ.
+    *   **Hệ quả**: Kẻ tấn công có thể thay đổi các đối tượng không mong muốn, thực thi mã từ xa (RCE) thông qua các "gadget chains" (chuỗi phương thức tự thực thi) hoặc gây lỗi treo ứng dụng (DoS).
+    *   **Ví dụ**: Trong Java (Pickle trong Python hoặc unserialize trong PHP), việc không kiểm tra nguồn gốc dữ liệu trước khi đọc đối tượng có thể cho phép thực thi `/bin/sh`.
 
 ## Cách phòng tránh
-1.  **Sử dụng chữ ký số**: Luôn xác minh chữ ký số của các bản cập nhật và dữ liệu quan trọng.
+1.  **Sử dụng chữ ký số**: Luôn xác minh chữ ký số (ví dụ: sử dụng HMAC) của các bản cập nhật và dữ liệu quan trọng để đảm bảo dữ liệu không bị sửa đổi.
 2.  **Repository tin cậy**: Chỉ sử dụng các kho lưu trữ (npm, Maven, v.v.) đã được phê duyệt. Đối với các hệ thống rủi ro cao, nên lưu trữ repository nội bộ đã qua kiểm duyệt.
-3.  **Kiểm tra tính toàn vẹn của dữ liệu tuần tự**: Tuyệt đối không chấp nhận dữ liệu tuần tự từ các nguồn không tin cậy mà không có kiểm tra chữ ký hoặc mã hóa để phát hiện thay đổi.
+3.  **Bảo vệ quá trình Giải tuần tự hóa**:
+    *   **Chỉ chấp nhận danh sách trắng (Allow-list)**: Chỉ cho phép giải tuần tự hóa các lớp (classes) cụ thể và an toàn.
+    *   **Sử dụng định dạng dữ liệu thuần túy**: Ưu tiên JSON hoặc XML thay vì các định dạng nhị phân của ngôn ngữ để tránh tự động thực thi mã.
+    *   **Đánh dấu trường transient**: Sử dụng từ khóa `transient` (trong Java) cho các trường nhạy cảm để chúng không bị tuần tự hóa/giải tuần tự hóa.
 4.  **Bảo vệ Pipeline**: Đảm bảo phân chia quyền hạn và kiểm soát truy cập chặt chẽ cho toàn bộ quy trình từ build đến deploy.
 
 ## Kịch bản tấn công ví dụ

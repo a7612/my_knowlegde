@@ -21,6 +21,7 @@ Chào mừng bạn. Đây là nơi được tổng hợp từ các tài liệu c
 
 ## Tiêu chuẩn và Khung bảo mật (Standards & Frameworks)
 * [[owasp-top-ten-2025|OWASP Top Ten 2025]]: Tóm tắt 10 rủi ro bảo mật ứng dụng web hàng đầu.
+
     * [[broken-access-control|A01: Kiểm soát truy cập bị hỏng]]
     * [[security-misconfiguration|A02: Cấu hình sai bảo mật]]
     * [[software-supply-chain|A03: Thất bại trong chuỗi cung ứng phần mềm]]
@@ -53,6 +54,8 @@ Chào mừng bạn. Đây là nơi được tổng hợp từ các tài liệu c
 * [[pentest-pre-engagement|Giai đoạn Tiền dự án]]: Các yêu cầu về pháp lý, phạm vi và quy tắc thực thi.
 * [[information-gathering|Thu thập thông tin]]: Giai đoạn thu thập dữ liệu về mục tiêu và lập bản đồ bề mặt tấn công.
 * [[vulnerability-assessment|Đánh giá lỗ hổng]]: Phân tích dữ liệu thu thập để xác định các điểm yếu và "low-hanging fruits".
+* [[memory-safety-vulnerabilities|Lỗ hổng an toàn bộ nhớ]]: Tổng quan về các lỗi quản lý bộ nhớ (CWE-787, CWE-416).
+* [[path-traversal|Duyệt đường dẫn (Path Traversal)]]: Lỗ hổng truy cập file trái phép (CWE-22).
 * [[os-command-injection|Tiêm lệnh hệ điều hành (OS Command Injection)]]: Lỗ hổng thực thi lệnh trái phép (CWE-78).
 * [[use-after-free|Sử dụng sau khi giải phóng (Use After Free)]]: Lỗ hổng quản lý bộ nhớ (CWE-416).
 * [[osint|OSINT]]: Thu thập thông tin từ các nguồn công khai (Social Media, GitHub, v.v.).
