@@ -5,7 +5,7 @@ tags: ["networking", "services", "dns", "name-resolution"]
 
 # Hệ thống Phân giải Tên miền (DNS - Domain Name System)
 
-[[dns|DNS]] đóng vai trò như một "cuốn danh bạ" của Internet, giúp chuyển đổi các tên miền dễ nhớ (như `www.google.com`) thành địa chỉ IP số mà máy tính có thể hiểu được.
+[[dns-service|DNS]] đóng vai trò như một "cuốn danh bạ" của Internet, giúp chuyển đổi các tên miền dễ nhớ (như `www.google.com`) thành địa chỉ IP số mà máy tính có thể hiểu được.
 
 ## Phân cấp DNS (DNS Hierarchy)
 DNS được tổ chức theo cấu trúc hình cây:

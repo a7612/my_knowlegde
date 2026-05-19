@@ -5,7 +5,7 @@ tags: ["networking", "services", "dhcp", "ip-assignment"]
 
 # Giao thức Cấu hình Máy chủ Động (DHCP - Dynamic Host Configuration Protocol)
 
-[[dhcp|DHCP]] là một giao thức quản lý mạng được sử dụng để tự động hóa quá trình cấu hình các thiết bị trên mạng IP. Thay vì gán địa chỉ IP thủ công, DHCP cho phép các thiết bị tự động nhận địa chỉ IP và các thông số mạng khác.
+[[dhcp-service|DHCP]] là một giao thức quản lý mạng được sử dụng để tự động hóa quá trình cấu hình các thiết bị trên mạng IP. Thay vì gán địa chỉ IP thủ công, DHCP cho phép các thiết bị tự động nhận địa chỉ IP và các thông số mạng khác.
 
 ## Lợi ích của DHCP
 * **Tự động hóa**: Giảm bớt khối lượng công việc quản trị.

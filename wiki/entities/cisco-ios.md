@@ -35,6 +35,6 @@ Khi truy cập từ xa qua Telnet hoặc SSH, các thiết bị Cisco IOS thư�
 `Password:`
 
 ## Liên kết liên quan
-- [[my_knowlegde/concepts/vlans|Mạng cục bộ ảo (VLAN)]]
+- [[vlans|Mạng cục bộ ảo (VLAN)]]
 - [[network-hardware|Thiết bị mạng]]
-- [[my_knowlegde/concepts/linux-network-configuration|Cấu hình mạng Linux]]
+- [[linux-network-configuration|Cấu hình mạng Linux]]

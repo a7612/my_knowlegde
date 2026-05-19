@@ -9,7 +9,7 @@ tags: ["networking", "hardware", "router"]
 
 ## Đặc điểm chính
 * **Tầng OSI**: Hoạt động tại **Tầng mạng (Layer 3)**.
-* **Địa chỉ sử dụng**: Sử dụng địa chỉ [[ip-address|IP]] để xác định đích đến của dữ liệu.
+* **Địa chỉ sử dụng**: Sử dụng địa chỉ [[ipv4-address|IP]] để xác định đích đến của dữ liệu.
 * **Chức năng**:
     * **Chuyển tiếp gói tin**: Kiểm tra các gói dữ liệu đến và gửi chúng về phía đích.
     * **Kết nối mạng**: Cho phép các thiết bị trên các mạng khác nhau giao tiếp với nhau.

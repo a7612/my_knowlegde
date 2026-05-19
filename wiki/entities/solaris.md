@@ -38,5 +38,5 @@ Ngoài các thư mục giống Linux, Solaris có một số thư mục đáng c
 
 ## Liên kết liên quan
 *   [[linux-distributions|Các bản phân phối Linux]]
-*   [[my_knowlegde/concepts/linux-file-system|Hệ thống tệp tin Linux]]
+*   [[linux-file-system|Hệ thống tệp tin Linux]]
 *   [[unix|Unix (Tổng quan)]]

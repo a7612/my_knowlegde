@@ -9,7 +9,7 @@ tags: ["networking", "hardware", "switch"]
 
 ## Đặc điểm chính
 * **Tầng OSI**: Hoạt động tại **Tầng liên kết dữ liệu (Layer 2)**.
-* **Địa chỉ sử dụng**: Sử dụng địa chỉ [[my_knowlegde/concepts/mac-address|MAC]] để chuyển tiếp dữ liệu.
+* **Địa chỉ sử dụng**: Sử dụng địa chỉ [[mac-address|MAC]] để chuyển tiếp dữ liệu.
 * **Chức năng**:
     * **Kết nối nội bộ**: Cho phép máy tính, máy in và máy chủ giao tiếp trực tiếp với nhau.
     * **Chuyển tiếp thông minh**: Chỉ gửi dữ liệu đến đúng cổng của thiết bị nhận, giúp giảm thiểu tắc nghẽn và cải thiện hiệu suất.

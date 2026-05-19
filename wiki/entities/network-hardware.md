@@ -22,7 +22,7 @@ Là các thiết bị mà người dùng tương tác trực tiếp để gửi 
 
 ### [[switch|Bộ chuyển mạch (Switch)]]
 * **Tầng OSI**: Tầng 2 (Liên kết dữ liệu).
-* **Chức năng**: Kết nối các thiết bị trong cùng một mạng LAN. Sử dụng địa chỉ [[my_knowlegde/concepts/mac-address|MAC]] để chuyển dữ liệu đến đúng cổng của thiết bị nhận, giúp giảm tắc nghẽn.
+* **Chức năng**: Kết nối các thiết bị trong cùng một mạng LAN. Sử dụng địa chỉ [[mac-address|MAC]] để chuyển dữ liệu đến đúng cổng của thiết bị nhận, giúp giảm tắc nghẽn.
 
 ### [[hub|Bộ tập trung (Hub)]]
 * **Tầng OSI**: Tầng 1 (Vật lý).
@@ -30,7 +30,7 @@ Là các thiết bị mà người dùng tương tác trực tiếp để gửi 
 
 ### [[network-interface-card|Thẻ giao tiếp mạng (NIC)]]
 * Thành phần phần cứng được cài đặt trong thiết bị để cho phép kết nối mạng.
-* Mỗi NIC có một địa chỉ [[my_knowlegde/concepts/mac-address|MAC]] duy nhất. Có thể là NIC có dây (Ethernet) hoặc không dây (Wi-Fi).
+* Mỗi NIC có một địa chỉ [[mac-address|MAC]] duy nhất. Có thể là NIC có dây (Ethernet) hoặc không dây (Wi-Fi).
 
 ## 3. Máy chủ (Servers)
 Là các máy tính mạnh mẽ cung cấp dịch vụ cho các máy tính khác (máy khách - clients).

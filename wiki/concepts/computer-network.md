@@ -21,8 +21,8 @@ Các thành phần chính bao gồm:
 * **URL** (ví dụ: `https://www.hackthebox.com/example?floor=2&office=dev`): Không chỉ cho biết địa chỉ tòa nhà mà còn chỉ rõ "số tầng", "văn phòng", "hộp thư" và "nhân viên" cụ thể mà gói hàng cần chuyển đến.
 
 ### 2. Router và ISP (Bưu điện địa phương và Bưu điện chính)
-* **[[my_knowlegde/entities/router|Router]]**: Đóng vai trò như bưu điện địa phương tại nhà hoặc công ty của bạn. Khi bạn gửi một "gói tin", router sẽ chuyển nó đến bưu điện lớn hơn.
-* **[[my_knowlegde/entities/isp|ISP (Nhà cung cấp dịch vụ Internet)]]**: Đóng vai trò như bưu điện chính. Nó tra cứu "danh bạ điện thoại" (**[[dns-service|DNS]]**) để tìm tọa độ địa lý (Địa chỉ IP) của đích đến và chuyển gói tin đi.
+* **[[router|Router]]**: Đóng vai trò như bưu điện địa phương tại nhà hoặc công ty của bạn. Khi bạn gửi một "gói tin", router sẽ chuyển nó đến bưu điện lớn hơn.
+* **[[isp|ISP (Nhà cung cấp dịch vụ Internet)]]**: Đóng vai trò như bưu điện chính. Nó tra cứu "danh bạ điện thoại" (**[[dns-service|DNS]]**) để tìm tọa độ địa lý (Địa chỉ IP) của đích đến và chuyển gói tin đi.
 
 ## Tầm quan trọng và Bảo mật mạng
 
@@ -42,5 +42,5 @@ Một mạng "phẳng" (flat network) giống như một ngôi nhà chỉ có m�
 Mạng có thể được phân loại theo phạm vi địa lý và mục đích sử dụng. Chi tiết xem tại: [[network-types|Các loại mạng máy tính]].
 
 ## Sự kết hợp giữa LAN và WAN
-Các mạng LAN kết nối với WAN để truy cập các mạng rộng lớn hơn thông qua thiết bị gọi là **[[my_knowlegde/entities/modem|Modem]]**. Modem đóng vai trò là cầu nối, chuyển đổi tín hiệu số từ router thành định dạng phù hợp để truyền tải qua các phương tiện như đường dây điện thoại hoặc cáp quang.
+Các mạng LAN kết nối với WAN để truy cập các mạng rộng lớn hơn thông qua thiết bị gọi là **[[modem|Modem]]**. Modem đóng vai trò là cầu nối, chuyển đổi tín hiệu số từ router thành định dạng phù hợp để truyền tải qua các phương tiện như đường dây điện thoại hoặc cáp quang.
 

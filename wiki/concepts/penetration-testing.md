@@ -29,7 +29,7 @@ Quy trình chuẩn thường bao gồm 8 giai đoạn chính:
 *   **Nâng cao nhận thức**: Giúp nhân viên và ban lãnh đạo hiểu rõ hơn về các rủi ro thực tế.
 
 ## Lời khuyên cho Pentester
-Để trở thành một chuyên gia giỏi, bạn cần rèn luyện về tư duy, kỹ năng nghiên cứu và tuân thủ kỷ luật làm việc. Xem thêm tại: [[my_knowlegde/summaries/pentest-recommendations|Lời khuyên cho chuyên viên Kiểm thử xâm nhập]].
+Để trở thành một chuyên gia giỏi, bạn cần rèn luyện về tư duy, kỹ năng nghiên cứu và tuân thủ kỷ luật làm việc. Xem thêm tại: [[pentest-recommendations|Lời khuyên cho chuyên viên Kiểm thử xâm nhập]].
 
 ## Liên kết liên quan
 - [[security-roles|Các vai trò trong an ninh mạng]] (Đặc biệt là [[security-roles|Penetration Tester]])

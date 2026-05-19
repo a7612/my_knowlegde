@@ -28,4 +28,4 @@ Vì địa chỉ MAC có thể bị thay đổi (spoofing) bằng phần mềm, 
 ## Liên kết liên quan
 *   [[addressing-and-routing|Định danh và Truyền thông]]
 *   [[arp-protocol|Giao thức ARP]]
-*   [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]
+*   [[network-hardware|Thiết bị mạng]]

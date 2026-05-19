@@ -33,5 +33,5 @@ tags: ["networking", "topologies", "architecture"]
 
 ## Liên kết liên quan
 *   [[computer-network|Mạng máy tính]]
-*   [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]
+*   [[network-hardware|Thiết bị mạng]]
 *   [[network-types|Các loại mạng]]

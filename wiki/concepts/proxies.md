@@ -29,5 +29,5 @@ Nhiều người nhầm lẫn Proxy với VPN. Trong khi cả hai đều có th�
 
 ## Liên kết liên quan
 *   [[network-models|Mô hình OSI]]
-*   [[my_knowlegde/entities/firewall|Tường lửa]]
+*   [[firewall|Tường lửa]]
 *   [[network-security|Bảo mật mạng]]

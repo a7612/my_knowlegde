@@ -46,4 +46,4 @@ Mạng không dây sử dụng sóng vô tuyến (Radio Frequency - RF) để tr
 ## Liên kết liên quan
 - [[network-security|Bảo mật mạng]]
 - [[authentication-protocols|Giao thức xác thực]]
-- [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]
+- [[network-hardware|Thiết bị mạng]]

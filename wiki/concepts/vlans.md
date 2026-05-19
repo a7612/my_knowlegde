@@ -60,7 +60,7 @@ tshark -r capture.pcap -T fields -e vlan.id | sort -n -u
 Giải pháp cho trung tâm dữ liệu, sử dụng định danh 24-bit (**VNI**) hỗ trợ tới 16 triệu VLAN, hoạt động như một lớp phủ (overlay) Layer 2 trên hạ tầng Layer 3.
 
 ## Liên kết liên quan
-- [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]
-- [[my_knowlegde/entities/cisco-ios|Hệ điều hành Cisco IOS]]
+- [[network-hardware|Thiết bị mạng]]
+- [[cisco-ios|Hệ điều hành Cisco IOS]]
 - [[addressing-and-routing|Định danh và Truyền thông]]
 - [[mac-address|Địa chỉ MAC]]
