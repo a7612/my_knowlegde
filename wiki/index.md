@@ -21,7 +21,7 @@ Chào mừng bạn. Đây là nơi được tổng hợp từ các tài liệu c
 
 ## Tiêu chuẩn và Khung bảo mật (Standards & Frameworks)
 * [[owasp-top-ten-2025|OWASP Top Ten 2025]]: Tóm tắt 10 rủi ro bảo mật ứng dụng web hàng đầu.
-
+* [[owasp-proactive-controls|OWASP Proactive Controls]]: 10 biện pháp kiểm soát bảo mật chủ động cho nhà phát triển.
     * [[broken-access-control|A01: Kiểm soát truy cập bị hỏng]]
     * [[security-misconfiguration|A02: Cấu hình sai bảo mật]]
     * [[software-supply-chain|A03: Thất bại trong chuỗi cung ứng phần mềm]]
@@ -32,6 +32,7 @@ Chào mừng bạn. Đây là nơi được tổng hợp từ các tài liệu c
     * [[integrity-failures|A08: Thất bại về tính toàn vẹn]]
     * [[logging-alerting-failures|A09: Thất bại trong ghi nhật ký và cảnh báo]]
     * [[exceptional-conditions-handling|A10: Xử lý sai các điều kiện bất thường]]
+* [[browser-security-features|Các tính năng bảo mật trình duyệt]]: Hardening phía client (CSP, HSTS).
 
 ## Các nguyên tắc an ninh thông tin (Information Security Principles)
 * [[risk-management|Quản lý rủi ro]]: Rủi ro, mối đe dọa, lỗ hổng và đánh giá rủi ro.
@@ -48,6 +49,8 @@ Chào mừng bạn. Đây là nơi được tổng hợp từ các tài liệu c
 * [[advanced-persistent-threat|Mối đe dọa thường trực nâng cao (APT)]]: Các chiến dịch tấn công dài hạn và tinh vi.
 * [[insider-threat|Mối đe dọa từ nội bộ (Insider Threat)]]: Nguy cơ đến từ những người có quyền truy cập hợp lệ.
 * [[social-engineering|Tấn công kỹ thuật xã hội (Social Engineering)]]: Thao túng tâm lý để đánh lừa nạn nhân.
+* [[server-side-request-forgery|Giả mạo yêu cầu phía máy chủ (SSRF)]]: Coi máy chủ là bàn đạp tấn công.
+* [[link-following|Theo dõi liên kết (Link Following)]]: Khai thác symlinks và hard links.
 
 ## Kiểm thử xâm nhập (Penetration Testing)
 * [[penetration-testing|Kiểm thử xâm nhập]]: Tổng quan về khái niệm và quy trình 8 giai đoạn.

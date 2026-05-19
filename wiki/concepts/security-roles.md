@@ -20,7 +20,7 @@ Là chuyên gia an ninh mô phỏng các cuộc tấn công thực tế để t�
 *   **Kỹ năng**: Đòi hỏi tư duy đột phá, kỹ năng lập trình, hiểu biết sâu về hệ điều hành và giao thức mạng.
 *   **Sản phẩm**: Các báo cáo chi tiết về lỗ hổng và khuyến nghị giải pháp khắc phục.
 
-### 3. Thợ săn tiền thưởng lỗ hổng (Bug Bounty Hunter)
+### 3. [[bug-bounty-hunter|Thợ săn tiền thưởng lỗ hổng (Bug Bounty Hunter)]]
 Là các chuyên gia độc lập tìm kiếm lỗ hổng trong các tài sản kỹ thuật số của tổ chức và nhận phần thưởng.
 *   **Hoạt động**: Làm việc tự do, tham gia vào các **Chương trình Bug Bounty** công khai hoặc riêng tư.
 *   **Mục tiêu**: Tìm kiếm các lỗ hổng ẩn mà đội ngũ nội bộ có thể bỏ sót.

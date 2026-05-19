@@ -33,24 +33,42 @@ Tiêm mã script độc hại vào các trang web mà người dùng khác sẽ 
 - Sử dụng các truy vấn động hoặc gọi hàm không được tham số hóa (non-parameterized calls).
 - Ghép chuỗi (concatenation) dữ liệu nhạy cảm trực tiếp vào các câu lệnh hoặc mã nguồn.
 
+## Quy trình xác thực đầu vào (Implementation - C3)
+Xác thực đầu vào không phải là biện pháp duy nhất nhưng là lớp phòng thủ quan trọng nhất để giảm thiểu bề mặt tấn công.
+
+### 1. Tính hợp lệ Cú pháp và Ngữ nghĩa
+*   **Cú pháp (Syntactic Validity)**: Dữ liệu có đúng định dạng không? (Ví dụ: ID tài khoản phải là 4 chữ số, không chứa ký tự lạ). Sử dụng biểu thức chính quy (**Regex**) để kiểm tra mẫu.
+*   **Ngữ nghĩa (Semantic Validity)**: Dữ liệu có ý nghĩa trong ngữ cảnh không? (Ví dụ: ngày kết thúc phải sau ngày bắt đầu, số lượng mua phải là số dương).
+
+### 2. Danh sách trắng (Allow-listing) vs Danh sách đen (Deny-listing)
+*   **Danh sách trắng (Khuyên dùng)**: Chỉ chấp nhận những gì được coi là "đúng". Mọi thứ khác bị từ chối. Đây là cách an toàn và ít lỗi nhất.
+*   **Danh sách đen**: Cố gắng chặn những gì được coi là "sai" (ví dụ: chặn `<script>`). Kẻ tấn công có thể dễ dàng vượt qua bằng cách thay đổi kiểu chữ hoặc mã hóa ký tự. Chỉ nên dùng để phát hiện các cuộc tấn công rõ ràng.
+
+### 3. Tránh lỗi gán hàng loạt (Mass Assignment)
+Kẻ tấn công có thể thay đổi các thuộc tính không mong muốn của đối tượng phía máy chủ (ví dụ: thêm `&privilege=admin` vào yêu cầu).
+*   **Giải pháp**: Sử dụng **DTO (Data Transfer Objects)** để chỉ nhận những trường cần thiết thay vì gán trực tiếp dữ liệu từ request vào đối tượng cơ sở dữ liệu.
+
 ## Cách phòng tránh
-1.  **Sử dụng Safe API**: Ưu tiên sử dụng các API có tham số hóa (parameterized interface) hoặc công cụ ORM.
-2.  **Xác thực đầu vào nghiêm ngặt**: Sử dụng danh sách trắng (allow-list) để chỉ chấp nhận dữ liệu đúng định dạng và quy tắc nghiệp vụ.
-3.  **Mã hóa đầu ra (Output Encoding)**: Mã hóa dữ liệu dựa trên ngữ cảnh (HTML body, attributes, JavaScript, CSS) trước khi hiển thị để trình duyệt không thực thi chúng như mã.
+1.  **Thực hiện tại phía máy chủ (Server-side)**: Tuyệt đối không tin tưởng vào xác thực tại trình duyệt.
+2.  **Sử dụng Safe API**: Ưu tiên sử dụng các API có tham số hóa (parameterized interface) hoặc công cụ ORM.
+3.  **Mã hóa đầu ra (Output Encoding)**: Mã hóa dữ liệu dựa trên ngữ cảnh (HTML body, attributes, JavaScript, CSS) trước khi hiển thị.
 4.  **Củng cố môi trường**:
-    *   **Sandbox/Jail**: Chạy mã trong môi trường bị cô lập (như Unix chroot, AppArmor) để hạn chế quyền truy cập hệ điều hành.
+    *   **Sandbox/Jail**: Chạy mã trong môi trường bị cô lập (như Unix chroot, AppArmor).
     *   **Content Security Policy (CSP)**: Sử dụng tiêu đề CSP để hạn chế nguồn tải script.
-5.  **Tránh hàm nguy hiểm**: Không sử dụng `eval()`, `exec()`, `system()`. Trong Python, hạn chế cả `ast.literal_eval()` trên dữ liệu không tin cậy nếu có cấu trúc lồng nhau sâu.
-6.  **Sử dụng HttpOnly**: Thiết lập cờ HttpOnly cho Cookie để ngăn script truy cập thông tin phiên.
+5.  **Tránh hàm nguy hiểm**: Không sử dụng `eval()`, `exec()`.
+6.  **Xử lý ngoại lệ (Exception Handling)**:
+    *   **Thất bại an toàn (Fail Closed)**: Nếu xác thực lỗi, hãy từ chối yêu cầu thay vì cho qua.
+    *   **Không lộ thông tin**: Không hiển thị thông báo lỗi chi tiết (stack traces) cho người dùng cuối. Xem thêm: [[exceptional-conditions-handling|Xử lý các điều kiện bất thường]].
 
 ## Kịch bản tấn công ví dụ
 Ứng dụng xây dựng câu lệnh SQL bằng cách ghép chuỗi:
 `"SELECT * FROM accounts WHERE id='" + request.getParameter("id") + "'"`
 Kẻ tấn công nhập vào `id` giá trị: `' OR '1'='1`. Câu lệnh trở thành:
 `SELECT * FROM accounts WHERE id='' OR '1'='1'`
-Kết quả là ứng dụng trả về toàn bộ tài khoản trong cơ sở dữ liệu.
+Kết quả là ứng dụng trả về toàn bộ tài khoản trong cơ sở dữ liệu. Đây là lỗi **SQL Injection**.
 
 ## Liên kết liên quan
 - [[os-command-injection|Lỗ hổng Tiêm lệnh hệ điều hành]]
-- [[application-security|An ninh ứng dụng]]
 - [[owasp-top-ten-2025|OWASP Top Ten 2025]]
+- [[owasp-proactive-controls|OWASP Proactive Controls]]
+
