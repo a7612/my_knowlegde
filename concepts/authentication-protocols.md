@@ -46,7 +46,7 @@ MFA sử dụng kết hợp hai hoặc nhiều yếu tố khác nhau để xác 
 *   **Bảo mật**: Thường sử dụng kết hợp với SSL/TLS hoặc IPsec để tăng cường an toàn.
 
 ## Liên kết liên quan
-- [[cryptography-basics|Mật mã học cơ bản]]
-- [[key-exchange|Cơ chế trao đổi khóa]]
-- [[network-security|Bảo mật mạng]]
-- [[wireless-networks|Mạng không dây]]
+- [[my_knowlegde/concepts/cryptography-basics|Mật mã học cơ bản]]
+- [[my_knowlegde/concepts/key-exchange|Cơ chế trao đổi khóa]]
+- [[my_knowlegde/concepts/network-security|Bảo mật mạng]]
+- [[my_knowlegde/concepts/wireless-networks|Mạng không dây]]

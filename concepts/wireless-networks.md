@@ -44,6 +44,6 @@ Mạng không dây sử dụng sóng vô tuyến (Radio Frequency - RF) để tr
 4.  **Triển khai EAP-TLS**: Sử dụng chứng chỉ số cho từng thiết bị, cung cấp mức độ an toàn cao nhất cho doanh nghiệp.
 
 ## Liên kết liên quan
-- [[network-security|Bảo mật mạng]]
-- [[authentication-protocols|Giao thức xác thực]]
-- [[network-hardware|Thiết bị mạng]]
+- [[my_knowlegde/concepts/network-security|Bảo mật mạng]]
+- [[my_knowlegde/concepts/authentication-protocols|Giao thức xác thực]]
+- [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]

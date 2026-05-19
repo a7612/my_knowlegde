@@ -28,6 +28,6 @@ Trái ngược với Forward Proxy, Reverse Proxy lọc các yêu cầu **đến
 Nhiều người nhầm lẫn Proxy với VPN. Trong khi cả hai đều có thể thay đổi địa chỉ IP hiển thị, VPN hoạt động ở tầng thấp hơn (thường là Tầng 3) và mã hóa toàn bộ lưu lượng, trong khi Proxy thường chỉ hoạt động cho các ứng dụng cụ thể ở Tầng 7.
 
 ## Liên kết liên quan
-*   [[network-models|Mô hình OSI]]
-*   [[firewall|Tường lửa]]
-*   [[network-security|Bảo mật mạng]]
+*   [[my_knowlegde/concepts/network-models|Mô hình OSI]]
+*   [[my_knowlegde/entities/firewall|Tường lửa]]
+*   [[my_knowlegde/concepts/network-security|Bảo mật mạng]]

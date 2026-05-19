@@ -65,8 +65,8 @@ Dùng để báo lỗi và chẩn đoán mạng (Ping, Traceroute).
     *   `Redirect`: Router thông báo nên đi theo đường khác tối ưu hơn.
 
 ## Liên kết liên quan
-- [[network-models|Mô hình mạng (OSI & TCP/IP)]]
-- [[ip-packet|Gói tin IP]]
-- [[wireless-networks|Mạng không dây]]
-- [[vlans|Mạng cục bộ ảo (VLAN)]]
+- [[my_knowlegde/concepts/network-models|Mô hình mạng (OSI & TCP/IP)]]
+- [[my_knowlegde/concepts/ip-packet|Gói tin IP]]
+- [[my_knowlegde/concepts/wireless-networks|Mạng không dây]]
+- [[my_knowlegde/concepts/vlans|Mạng cục bộ ảo (VLAN)]]
 

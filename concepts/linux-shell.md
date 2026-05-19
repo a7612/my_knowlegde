@@ -5,7 +5,7 @@ tags: ["linux", "shell", "terminal", "bash"]
 
 # Linux Shell
 
-[[linux-shell|Shell]] là một phần thiết yếu của Linux, đóng vai trò là giao diện nhập/xuất văn bản giữa người dùng và hạt nhân (kernel).
+[[my_knowlegde/concepts/linux-shell|Shell]] là một phần thiết yếu của Linux, đóng vai trò là giao diện nhập/xuất văn bản giữa người dùng và hạt nhân (kernel).
 
 ## Shell vs Terminal
 * **Terminal**: Là phần mềm giả lập (terminal emulator) cung cấp cửa sổ giao diện để người dùng nhập liệu. Nó là "cổng vào" của Shell.
@@ -22,4 +22,4 @@ Các công cụ này mở rộng khả năng của terminal:
 * **Terminal Emulators**: Cho phép dùng chương trình văn bản trong giao diện đồ họa (GUI).
 * **Multiplexers (ví dụ: Tmux)**: Cho phép chia cửa sổ terminal thành nhiều bảng (panes), làm việc trong nhiều thư mục và không gian làm việc khác nhau cùng lúc.
 
-Sử dụng Shell cho phép tự động hóa các quy trình thông qua các tập lệnh (scripts), giúp công việc thủ công trở nên nhanh chóng và hiệu quả hơn.
+Sử dụng Shell cho phép tự động hóa các quy trình thông qua các tập lệnh (scripts), giúp công việc thủ công trở nên nhanh chóng và hiệu quả hơn. Hầu hết các lệnh trong shell đều được tài liệu hóa chi tiết trong [[my_knowlegde/concepts/linux-man-pages|Hệ thống trang hướng dẫn Linux (Man Pages)]].

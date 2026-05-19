@@ -16,27 +16,27 @@ tags:
 ## 1. Kết nối Mạng không dây (WLAN)
 * Máy tính xác định đúng mạng Wi-Fi (SSID).
 * Xác thực bằng mật khẩu (WPA2/WPA3).
-* Thiết lập kết nối và giao thức [[dhcp-service|DHCP]] bắt đầu cấu hình IP.
+* Thiết lập kết nối và giao thức [[my_knowlegde/concepts/dhcp-service|DHCP]] bắt đầu cấu hình IP.
 
 ## 2. Cấu hình IP và DHCP
 * Nếu máy tính chưa có IP, nó yêu cầu một IP từ máy chủ DHCP của Router.
 * Máy chủ DHCP cấp một **IP riêng tư** (ví dụ: `192.168.1.10`) cùng với Subnet Mask, Default Gateway và DNS Server.
 
 ## 3. Phân giải tên miền (DNS)
-* Máy tính gửi truy vấn [[dns-service|DNS]] để tìm địa chỉ IP của `www.example.com`.
+* Máy tính gửi truy vấn [[my_knowlegde/concepts/dns-service|DNS]] để tìm địa chỉ IP của `www.example.com`.
 * Máy chủ DNS trả về địa chỉ IP đích (ví dụ: `93.184.216.34`).
 
 ## 4. Đóng gói dữ liệu (Encapsulation)
-Dữ liệu được chuẩn bị qua các tầng của mô hình [[network-models|OSI/TCP-IP]]:
+Dữ liệu được chuẩn bị qua các tầng của mô hình [[my_knowlegde/concepts/network-models|OSI/TCP-IP]]:
 1. **Tầng ứng dụng**: Trình duyệt tạo yêu cầu HTTP/HTTPS.
 2. **Tầng giao vận**: Yêu cầu được gói trong đoạn TCP (cổng 80 hoặc 443).
 3. **Tầng Internet**: Đoạn TCP được đặt vào gói IP (Nguồn: `192.168.1.10`, Đích: `93.184.216.34`).
-4. **Tầng liên kết**: Gói IP được đặt vào khung Ethernet hoặc Wi-Fi (chứa địa chỉ [[mac-address|MAC]]).
+4. **Tầng liên kết**: Gói IP được đặt vào khung Ethernet hoặc Wi-Fi (chứa địa chỉ [[my_knowlegde/concepts/mac-address|MAC]]).
 
-Máy tính sử dụng [[addressing-and-routing|ARP]] để tìm địa chỉ MAC của Router (Default Gateway) để gửi khung dữ liệu đi.
+Máy tính sử dụng [[my_knowlegde/concepts/addressing-and-routing|ARP]] để tìm địa chỉ MAC của Router (Default Gateway) để gửi khung dữ liệu đi.
 
 ## 5. Biên dịch địa chỉ mạng (NAT)
-Router nhận khung dữ liệu, thay thế IP riêng (`192.168.1.10`) bằng **IP công cộng** của nó (ví dụ: `203.0.113.45`). Đây là quy trình [[nat-service|NAT]]. Sau đó, gói tin được chuyển tiếp qua Internet qua nhiều Router trung gian.
+Router nhận khung dữ liệu, thay thế IP riêng (`192.168.1.10`) bằng **IP công cộng** của nó (ví dụ: `203.0.113.45`). Đây là quy trình [[my_knowlegde/concepts/nat-service|NAT]]. Sau đó, gói tin được chuyển tiếp qua Internet qua nhiều Router trung gian.
 
 ## 6. Máy chủ tiếp nhận và Phản hồi
 * Tường lửa của máy chủ đích kiểm tra xem lưu lượng có được cho phép hay không.

@@ -47,6 +47,6 @@ Các đội ngũ an ninh nội bộ hoặc tư vấn bên ngoài thường thự
 * **Tấn công kỹ thuật xã hội (Social Engineering)**: Thử nghiệm xem nhân viên có dễ bị lừa để cung cấp thông tin nhạy cảm hay không.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[risk-management|Quản lý rủi ro]]
-- [[security-roles|Các vai trò trong an ninh thông tin]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/risk-management|Quản lý rủi ro]]
+- [[my_knowlegde/concepts/security-roles|Các vai trò trong an ninh thông tin]]

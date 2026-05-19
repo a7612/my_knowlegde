@@ -25,4 +25,4 @@ Linux cung cấp bộ công cụ phong phú để lọc và biến đổi dữ l
 ## Thống kê
 * **`wc -l`**: Đếm số dòng trong đầu ra hoặc tệp tin.
 
-Sử dụng kết hợp các công cụ này thông qua [[linux-redirections|đường ống (pipes)]] cho phép bạn trích xuất chính xác thông tin cần thiết từ các tệp nhật ký (logs) hoặc cấu hình hệ thống khổng lồ.
+Sử dụng kết hợp các công cụ này thông qua [[my_knowlegde/concepts/linux-redirections|đường ống (pipes)]] cho phép bạn trích xuất chính xác thông tin cần thiết từ các tệp nhật ký (logs) hoặc cấu hình hệ thống khổng lồ.

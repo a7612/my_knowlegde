@@ -26,15 +26,15 @@ Tầng mạng chịu trách nhiệm định tuyến gói tin từ nguồn đến
 *   **Tầng OSI**: Tầng 2 (Liên kết dữ liệu).
 *   **Đặc điểm**: Địa chỉ vật lý duy nhất gán cho phần cứng (NIC).
 *   **Vai trò**: Giao tiếp trong mạng nội bộ.
-*   **Chi tiết**: [[mac-address|Địa chỉ MAC và các vector tấn công]].
+*   **Chi tiết**: [[my_knowlegde/concepts/mac-address|Địa chỉ MAC và các vector tấn công]].
 
 ### Địa chỉ IP (Internet Protocol)
 *   **Tầng OSI**: Tầng 3 (Mạng).
 *   **Các phiên bản**:
-    *   **[[ipv4-address|IPv4]]**: 32 bit, sử dụng ký hiệu thập phân có dấu chấm.
-    *   **[[ipv6-address|IPv6]]**: 128 bit, sử dụng ký hiệu thập lục phân, tích hợp bảo mật tốt hơn.
+    *   **[[my_knowlegde/concepts/ipv4-address|IPv4]]**: 32 bit, sử dụng ký hiệu thập phân có dấu chấm.
+    *   **[[my_knowlegde/concepts/ipv6-address|IPv6]]**: 128 bit, sử dụng ký hiệu thập lục phân, tích hợp bảo mật tốt hơn.
 *   **Vai trò**: Định danh thiết bị trên phạm vi toàn cầu hoặc mạng lớn.
-*   **Quản lý**: [[subnetting|Chia mạng con (Subnetting)]] giúp quản lý dải IP hiệu quả.
+*   **Quản lý**: [[my_knowlegde/concepts/subnetting|Chia mạng con (Subnetting)]] giúp quản lý dải IP hiệu quả.
 
 ### Cổng (Network Port)
 *   **Tầng OSI**: Tầng 4 (Giao vận).
@@ -42,7 +42,7 @@ Tầng mạng chịu trách nhiệm định tuyến gói tin từ nguồn đến
 
 ## 3. Giao thức phân giải địa chỉ (ARP)
 *   **Chức năng**: Ánh xạ địa chỉ IP sang địa chỉ MAC để thiết bị có thể "nói chuyện" trực tiếp trong mạng LAN.
-*   **Chi tiết**: [[arp-protocol|Cơ chế ARP và tấn công ARP Spoofing]].
+*   **Chi tiết**: [[my_knowlegde/concepts/arp-protocol|Cơ chế ARP và tấn công ARP Spoofing]].
 
 ## Ví dụ: Quy trình truyền tin qua các mạng
 1.  **Đóng gói**: Dữ liệu từ tầng ứng dụng được đóng gói với Port (Tầng 4), IP (Tầng 3) và MAC (Tầng 2).

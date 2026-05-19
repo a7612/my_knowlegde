@@ -5,7 +5,7 @@ tags: ["networking", "hardware", "hub"]
 
 # Bộ tập trung (Hub)
 
-[[hub|Hub]] là một thiết bị mạng cơ bản và hiện nay đã trở nên lỗi thời trong các mạng hiện đại.
+[[my_knowlegde/entities/hub|Hub]] là một thiết bị mạng cơ bản và hiện nay đã trở nên lỗi thời trong các mạng hiện đại.
 
 ## Đặc điểm chính
 * **Tầng OSI**: Hoạt động tại **Tầng vật lý (Layer 1)**.
@@ -15,4 +15,4 @@ tags: ["networking", "hardware", "hub"]
     * **Kém hiệu quả**: Dễ gây ra va chạm dữ liệu (collisions) và lãng phí băng thông.
 
 ## Tình trạng hiện tại
-Hiện nay, Hub đã được thay thế hoàn toàn bởi [[switch|Switch]] do Switch có hiệu suất và tính thông minh cao hơn nhiều.
+Hiện nay, Hub đã được thay thế hoàn toàn bởi [[my_knowlegde/entities/switch|Switch]] do Switch có hiệu suất và tính thông minh cao hơn nhiều.

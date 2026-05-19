@@ -5,7 +5,7 @@ tags: ["security", "application", "sdlc", "secure-coding", "penetration-testing"
 
 # An ninh ứng dụng (Application Security)
 
-**An ninh ứng dụng** là một thành phần trọng yếu của [[information-security|An ninh thông tin]], tập trung vào việc bảo vệ các ứng dụng phần mềm khỏi các mối đe dọa bên ngoài trong suốt toàn bộ vòng đời của chúng (từ lúc phát triển đến khi triển khai và bảo trì).
+**An ninh ứng dụng** là một thành phần trọng yếu của [[my_knowlegde/concepts/information-security|An ninh thông tin]], tập trung vào việc bảo vệ các ứng dụng phần mềm khỏi các mối đe dọa bên ngoài trong suốt toàn bộ vòng đời của chúng (từ lúc phát triển đến khi triển khai và bảo trì).
 
 ## Mục tiêu cốt lõi
 Đảm bảo các ứng dụng được phát triển và vận hành theo cách duy trì bộ ba **CIA**:
@@ -31,7 +31,7 @@ tags: ["security", "application", "sdlc", "secure-coding", "penetration-testing"
 ### Bảo mật ngay từ khâu thiết kế (Security by Design)
 Security by Design có nghĩa là bảo mật không phải là thứ được thêm vào sau khi ứng dụng đã hoàn thành, mà được tích hợp ngay từ giai đoạn lập kế hoạch.
 * **Mô hình hóa mối đe dọa (Threat Modeling)**: Hình dung mọi cách kẻ xấu có thể tấn công ứng dụng.
-* **Đánh giá mã nguồn an toàn (Secure Code Reviews)**: Kiểm tra kỹ lưỡng mã nguồn để đảm bảo không có lỗ hổng như SQL Injection, Cross-Site Scripting (XSS).
+* **Đánh giá mã nguồn an toàn (Secure Code Reviews)**: Kiểm tra kỹ lưỡng mã nguồn để đảm bảo không có lỗ hổng như SQL Injection, Cross-Site Scripting (XSS) hay [[my_knowlegde/concepts/os-command-injection|OS Command Injection]].
 
 ### Môi trường vận hành an toàn
 Giống như ngôi nhà cần một khu phố an toàn, ứng dụng cần:
@@ -48,6 +48,7 @@ Giống như ngôi nhà cần một khu phố an toàn, ứng dụng cần:
 Một trong những thách thức lớn nhất là sự cân bằng giữa **tính bảo mật** và **tốc độ ra mắt thị trường**. Việc vội vàng phát hành ứng dụng có thể dẫn đến việc bỏ qua các bước kiểm tra an ninh, để lại những lỗ hổng nguy hiểm.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[network-security|An ninh mạng]]
-- [[linux-web-services|Dịch vụ web trên Linux]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/network-security|An ninh mạng]]
+- [[my_knowlegde/concepts/linux-web-services|Dịch vụ web trên Linux]]
+- [[my_knowlegde/concepts/os-command-injection|Lỗ hổng Tiêm lệnh hệ điều hành (CWE-78)]]

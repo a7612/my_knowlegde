@@ -36,6 +36,6 @@ Một giá trị bí mật được chia sẻ thủ công giữa hai bên trư�
 Cơ chế đảm bảo rằng ngay cả khi khóa bí mật dài hạn (Private Key) bị lộ trong tương lai, các phiên giao tiếp cũ đã được ghi lại vẫn không thể bị giải mã. ECDH thường được dùng để cung cấp tính năng này.
 
 ## Liên kết liên quan
-- [[cryptography-basics|Mật mã học cơ bản]]
-- [[vpn-technology|Công nghệ VPN]]
-- [[authentication-protocols|Giao thức xác thực]]
+- [[my_knowlegde/concepts/cryptography-basics|Mật mã học cơ bản]]
+- [[my_knowlegde/concepts/vpn-technology|Công nghệ VPN]]
+- [[my_knowlegde/concepts/authentication-protocols|Giao thức xác thực]]

@@ -32,6 +32,6 @@ tags: ["networking", "topologies", "architecture"]
 | **Daisy Chain** | Các máy chủ được kết nối nối tiếp nhau thành một chuỗi. |
 
 ## Liên kết liên quan
-*   [[computer-network|Mạng máy tính]]
-*   [[network-hardware|Thiết bị mạng]]
-*   [[network-types|Các loại mạng]]
+*   [[my_knowlegde/concepts/computer-network|Mạng máy tính]]
+*   [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]
+*   [[my_knowlegde/concepts/network-types|Các loại mạng]]

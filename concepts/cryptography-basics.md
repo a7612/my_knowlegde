@@ -37,6 +37,6 @@ Quy định cách thuật toán mã hóa khối (thường là 64 hoặc 128 bit
 | **GCM (Galois/Counter Mode)** | Kết hợp bảo mật và kiểm tra tính toàn vẹn. | Phổ biến trong VPN, giao tiếp không dây và các giao thức bảo mật hiện đại. |
 
 ## Liên kết liên quan
-- [[key-exchange|Cơ chế trao đổi khóa]]
-- [[authentication-protocols|Giao thức xác thực]]
-- [[network-security|Bảo mật mạng]]
+- [[my_knowlegde/concepts/key-exchange|Cơ chế trao đổi khóa]]
+- [[my_knowlegde/concepts/authentication-protocols|Giao thức xác thực]]
+- [[my_knowlegde/concepts/network-security|Bảo mật mạng]]

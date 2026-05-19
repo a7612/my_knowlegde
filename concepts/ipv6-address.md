@@ -32,6 +32,6 @@ Gồm hai phần chính:
 *   **Multicast**: Định danh một nhóm giao diện, tất cả đều nhận được gói tin.
 
 ## Liên kết liên quan
-*   [[addressing-and-routing|Định danh và Truyền thông]]
-*   [[ipv4-address|Địa chỉ IPv4]]
-*   [[mac-address|Địa chỉ MAC]]
+*   [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]
+*   [[my_knowlegde/concepts/ipv4-address|Địa chỉ IPv4]]
+*   [[my_knowlegde/concepts/mac-address|Địa chỉ MAC]]

@@ -22,6 +22,6 @@ Do ARP được thiết kế mà không có cơ chế xác thực, kẻ tấn c�
 *   **Phòng chống**: Sử dụng Static ARP, Dynamic ARP Inspection (DAI) trên Switch, hoặc các giao thức bảo mật như IPSec/SSL.
 
 ## Liên kết liên quan
-*   [[mac-address|Địa chỉ MAC]]
-*   [[ipv4-address|Địa chỉ IPv4]]
-*   [[addressing-and-routing|Định danh và Truyền thông]]
+*   [[my_knowlegde/concepts/mac-address|Địa chỉ MAC]]
+*   [[my_knowlegde/concepts/ipv4-address|Địa chỉ IPv4]]
+*   [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]

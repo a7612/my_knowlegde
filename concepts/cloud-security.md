@@ -36,6 +36,6 @@ Hãy tưởng tượng bạn gửi đồ quý giá vào một kho lưu trữ chu
 * **Đội ngũ an ninh/Penetration Testers**: Thường xuyên kiểm tra để tìm ra các điểm yếu trong cấu hình đám mây trước khi tin tặc tìm thấy.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[network-security|An ninh mạng]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/network-security|An ninh mạng]]
 - [[virtualization-and-containers|Ảo hóa và Container]]

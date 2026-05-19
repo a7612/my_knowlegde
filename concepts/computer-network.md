@@ -6,13 +6,13 @@ tags: ["networking", "fundamentals", "segmentation", "fqdn", "url"]
 # Mạng máy tính (Computer Network)
 
 ## Khái niệm cơ bản
-Một **[[computer-network|mạng máy tính]]** là một tập hợp các thiết bị được kết nối với nhau để có thể giao tiếp - gửi và nhận dữ liệu, cũng như chia sẻ tài nguyên.
+Một **[[my_knowlegde/concepts/computer-network|mạng máy tính]]** là một tập hợp các thiết bị được kết nối với nhau để có thể giao tiếp - gửi và nhận dữ liệu, cũng như chia sẻ tài nguyên.
 
 Các thành phần chính bao gồm:
 * **[[network-node|Nút mạng (Node)]]**: Các thiết bị đầu cuối như máy tính, điện thoại thông minh, máy in và máy chủ.
 * **[[communication-link|Liên kết (Link)]]**: Các đường dẫn truyền thông kết nối các nút thông qua các phương tiện truyền dẫn (cáp đồng, cáp quang, sóng vô tuyến).
-* **[[network-topologies|Sơ đồ mạng (Topologies)]]**: Cách sắp xếp vật lý hoặc logic của các thiết bị.
-* **[[network-protocols|Giao thức (Protocols)]]**: Các quy tắc giao tiếp (TCP, UDP, IPX).
+* **[[my_knowlegde/concepts/network-topologies|Sơ đồ mạng (Topologies)]]**: Cách sắp xếp vật lý hoặc logic của các thiết bị.
+* **[[my_knowlegde/concepts/network-protocols|Giao thức (Protocols)]]**: Các quy tắc giao tiếp (TCP, UDP, IPX).
 
 ## Các phép ẩn dụ dễ hiểu
 
@@ -21,8 +21,8 @@ Các thành phần chính bao gồm:
 * **URL** (ví dụ: `https://www.hackthebox.com/example?floor=2&office=dev`): Không chỉ cho biết địa chỉ tòa nhà mà còn chỉ rõ "số tầng", "văn phòng", "hộp thư" và "nhân viên" cụ thể mà gói hàng cần chuyển đến.
 
 ### 2. Router và ISP (Bưu điện địa phương và Bưu điện chính)
-* **[[router|Router]]**: Đóng vai trò như bưu điện địa phương tại nhà hoặc công ty của bạn. Khi bạn gửi một "gói tin", router sẽ chuyển nó đến bưu điện lớn hơn.
-* **[[isp|ISP (Nhà cung cấp dịch vụ Internet)]]**: Đóng vai trò như bưu điện chính. Nó tra cứu "danh bạ điện thoại" (**[[dns-service|DNS]]**) để tìm tọa độ địa lý (Địa chỉ IP) của đích đến và chuyển gói tin đi.
+* **[[my_knowlegde/entities/router|Router]]**: Đóng vai trò như bưu điện địa phương tại nhà hoặc công ty của bạn. Khi bạn gửi một "gói tin", router sẽ chuyển nó đến bưu điện lớn hơn.
+* **[[my_knowlegde/entities/isp|ISP (Nhà cung cấp dịch vụ Internet)]]**: Đóng vai trò như bưu điện chính. Nó tra cứu "danh bạ điện thoại" (**[[my_knowlegde/concepts/dns-service|DNS]]**) để tìm tọa độ địa lý (Địa chỉ IP) của đích đến và chuyển gói tin đi.
 
 ## Tầm quan trọng và Bảo mật mạng
 
@@ -39,8 +39,8 @@ Một mạng "phẳng" (flat network) giống như một ngôi nhà chỉ có m�
 3. **Hệ thống phát hiện xâm nhập (IDS)**: Sử dụng các công cụ như Suricata hoặc Snort để phát hiện sớm các hành vi đáng ngờ (ví dụ: quét cổng).
 
 ## Phân loại mạng
-Mạng có thể được phân loại theo phạm vi địa lý và mục đích sử dụng. Chi tiết xem tại: [[network-types|Các loại mạng máy tính]].
+Mạng có thể được phân loại theo phạm vi địa lý và mục đích sử dụng. Chi tiết xem tại: [[my_knowlegde/concepts/network-types|Các loại mạng máy tính]].
 
 ## Sự kết hợp giữa LAN và WAN
-Các mạng LAN kết nối với WAN để truy cập các mạng rộng lớn hơn thông qua thiết bị gọi là **[[modem|Modem]]**. Modem đóng vai trò là cầu nối, chuyển đổi tín hiệu số từ router thành định dạng phù hợp để truyền tải qua các phương tiện như đường dây điện thoại hoặc cáp quang.
+Các mạng LAN kết nối với WAN để truy cập các mạng rộng lớn hơn thông qua thiết bị gọi là **[[my_knowlegde/entities/modem|Modem]]**. Modem đóng vai trò là cầu nối, chuyển đổi tín hiệu số từ router thành định dạng phù hợp để truyền tải qua các phương tiện như đường dây điện thoại hoặc cáp quang.
 

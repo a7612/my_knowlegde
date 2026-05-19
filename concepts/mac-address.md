@@ -26,6 +26,6 @@ Vì địa chỉ MAC có thể bị thay đổi (spoofing) bằng phần mềm, 
 *   **MAC Filtering Bypass**: Vượt qua bộ lọc MAC của mạng bằng cách giả mạo MAC được cho phép.
 
 ## Liên kết liên quan
-*   [[addressing-and-routing|Định danh và Truyền thông]]
-*   [[arp-protocol|Giao thức ARP]]
-*   [[network-hardware|Thiết bị mạng]]
+*   [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]
+*   [[my_knowlegde/concepts/arp-protocol|Giao thức ARP]]
+*   [[my_knowlegde/entities/network-hardware|Thiết bị mạng]]

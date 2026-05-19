@@ -7,7 +7,7 @@ tags: ["security", "business-continuity", "bc", "resilience", "strategy"]
 
 **Liên tục kinh doanh (BC)** là một chiến lược tổng thể rộng lớn hơn nhằm đảm bảo rằng một tổ chức có thể tiếp tục hoạt động trong và sau khi xảy ra sự cố gián đoạn nghiêm trọng.
 
-## Sự khác biệt với [[disaster-recovery|Khôi phục sau thảm họa (DR)]]
+## Sự khác biệt với [[my_knowlegde/concepts/disaster-recovery|Khôi phục sau thảm họa (DR)]]
 Trong khi DR tập trung vào khía cạnh kỹ thuật (khôi phục hệ thống và dữ liệu), BC tập trung vào việc duy trì toàn bộ hoạt động của doanh nghiệp.
 
 ## Phép ẩn dụ: Buổi hòa nhạc ngoài trời
@@ -26,6 +26,6 @@ Kiểm thử BC là một quá trình liên tục để đảm bảo nhân viên
 * **Mô phỏng quy mô lớn**: Thực hiện chuyển đổi thực tế sang các hệ thống dự phòng hoặc địa điểm thay thế.
 
 ## Liên kết liên quan
-- [[disaster-recovery|Khôi phục sau thảm họa]]
-- [[risk-management|Quản lý rủi ro]]
-- [[operational-security|An ninh vận hành]]
+- [[my_knowlegde/concepts/disaster-recovery|Khôi phục sau thảm họa]]
+- [[my_knowlegde/concepts/risk-management|Quản lý rủi ro]]
+- [[my_knowlegde/concepts/operational-security|An ninh vận hành]]

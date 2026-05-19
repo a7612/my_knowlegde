@@ -22,6 +22,6 @@ Tập trung vào việc khôi phục hệ thống và dữ liệu sau một sự
 Đảm bảo rằng các hệ thống và dữ liệu quan trọng luôn sẵn sàng để tổ chức có thể tiếp tục hoạt động ngay cả khi đối mặt với sự cố.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[risk-management|Quản lý rủi ro]]
-- [[security-principles|Các nguyên tắc an ninh thông tin]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/risk-management|Quản lý rủi ro]]
+- [[my_knowlegde/concepts/security-principles|Các nguyên tắc an ninh thông tin]]

@@ -31,6 +31,6 @@ Hãy tưởng tượng bạn tổ chức một buổi hòa nhạc lớn trong c�
 * **Kiểm thử xâm nhập (Penetration Testers)**: Giúp xác định các lỗ hổng có thể làm hỏng nỗ lực khôi phục và kiểm tra tính hiệu quả của các quy trình khôi phục.
 
 ## Liên kết liên quan
-- [[business-continuity|Liên tục kinh doanh]]
-- [[information-security|An ninh thông tin]]
-- [[cloud-security|An ninh đám mây]]
+- [[my_knowlegde/concepts/business-continuity|Liên tục kinh doanh]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/cloud-security|An ninh đám mây]]

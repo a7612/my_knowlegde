@@ -32,6 +32,6 @@ Các thuật ngữ này thường được dùng trong các kỳ thi hoặc tài
 *   **PAN / WPAN (Personal Area Network)**: Mạng cá nhân trong phạm vi vài mét (ví dụ: Bluetooth kết nối điện thoại và tai nghe).
 
 ## Liên kết liên quan
-*   [[computer-network|Mạng máy tính]]
-*   [[internet-architecture|Kiến trúc Internet]]
-*   [[proxies|Máy chủ ủy quyền (Proxies)]]
+*   [[my_knowlegde/concepts/computer-network|Mạng máy tính]]
+*   [[my_knowlegde/concepts/internet-architecture|Kiến trúc Internet]]
+*   [[my_knowlegde/concepts/proxies|Máy chủ ủy quyền (Proxies)]]

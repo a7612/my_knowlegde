@@ -31,6 +31,6 @@ CIDR thay thế việc phân lớp cố định bằng cách sử dụng **Subne
 *   **Default Gateway**: Thường là địa chỉ đầu tiên hoặc cuối cùng có thể gán trong mạng, dùng để trỏ đến Router.
 
 ## Liên kết liên quan
-*   [[addressing-and-routing|Định danh và Truyền thông]]
-*   [[ipv6-address|Địa chỉ IPv6]]
-*   [[subnetting|Chia mạng con (Subnetting)]]
+*   [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]
+*   [[my_knowlegde/concepts/ipv6-address|Địa chỉ IPv6]]
+*   [[my_knowlegde/concepts/subnetting|Chia mạng con (Subnetting)]]

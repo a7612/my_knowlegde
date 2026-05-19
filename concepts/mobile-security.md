@@ -33,7 +33,7 @@ Bảo vệ thiết bị di động là nỗ lực chung của nhiều vai trò:
 * **Người dùng**: Có trách nhiệm cập nhật phần mềm thường xuyên và không cài đặt các ứng dụng không rõ nguồn gốc.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[network-security|An ninh mạng]]
-- [[application-security|An ninh ứng dụng]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/network-security|An ninh mạng]]
+- [[my_knowlegde/concepts/application-security|An ninh ứng dụng]]
 - [[encryption-basics|Cơ bản về mã hóa]]

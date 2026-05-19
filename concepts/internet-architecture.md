@@ -53,4 +53,4 @@ Khi truy cập tài nguyên trên Internet, chúng ta sử dụng các địa ch
     *   Ví dụ: `https://www.hackthebox.com/example?id=123`
     *   Thành phần của URL bao gồm giao thức (`https`), FQDN (`www.hackthebox.com`), đường dẫn tài nguyên (`/example`) và các tham số (`?id=123`).
 
-Khi gửi một gói tin, **[[dns-service|Dịch vụ tên miền (DNS)]]** sẽ đóng vai trò như danh bạ điện thoại, giúp chuyển đổi các tên miền dễ nhớ này thành địa chỉ IP vật lý để các thiết bị có thể tìm thấy nhau.
+Khi gửi một gói tin, **[[my_knowlegde/concepts/dns-service|Dịch vụ tên miền (DNS)]]** sẽ đóng vai trò như danh bạ điện thoại, giúp chuyển đổi các tên miền dễ nhớ này thành địa chỉ IP vật lý để các thiết bị có thể tìm thấy nhau.

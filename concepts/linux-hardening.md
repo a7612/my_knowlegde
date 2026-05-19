@@ -58,7 +58,7 @@ Một công cụ kiểm soát truy cập dựa trên máy chủ, hạn chế d�
 6. Vô hiệu hóa các file SUID/SGID không mong muốn.
 
 ## Liên kết liên quan
-*   [[network-security|Bảo mật Mạng]]
-*   [[linux-firewall|Tường lửa Linux]]
-*   [[linux-permissions|Quyền hạn Linux]]
-*   [[linux-logging|Ghi nhật ký hệ thống]]
+*   [[my_knowlegde/concepts/network-security|Bảo mật Mạng]]
+*   [[my_knowlegde/concepts/linux-firewall|Tường lửa Linux]]
+*   [[my_knowlegde/concepts/linux-permissions|Quyền hạn Linux]]
+*   [[my_knowlegde/concepts/linux-logging|Ghi nhật ký hệ thống]]

@@ -34,6 +34,6 @@ Nếu muốn chia mạng `/26` trên thành 4 mạng con nhỏ hơn:
 *   Mỗi mạng con mới sẽ có 16 địa chỉ ($64 / 4 = 16$).
 
 ## Liên kết liên quan
-*   [[ipv4-address|Địa chỉ IPv4]]
-*   [[addressing-and-routing|Định danh và Truyền thông]]
-*   [[network-types|Các loại mạng]]
+*   [[my_knowlegde/concepts/ipv4-address|Địa chỉ IPv4]]
+*   [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]
+*   [[my_knowlegde/concepts/network-types|Các loại mạng]]

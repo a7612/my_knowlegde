@@ -32,4 +32,4 @@ Việc hiểu rõ cấu trúc và thông tin chi tiết của hệ thống Linux
 **SSH (Secure Shell)** là giao thức tiêu chuẩn để truy cập và thực thi lệnh trên máy tính từ xa một cách bảo mật.
 * **Cú pháp**: `ssh user@IP_Address`
 
-Việc nắm vững các lệnh này giúp bạn có cái nhìn tổng quan về hệ thống (**Situational Awareness**), hỗ trợ phát hiện các lỗ hổng hoặc cấu hình sai.
+Việc nắm vững các lệnh này giúp bạn có cái nhìn tổng quan về hệ thống (**Situational Awareness**), hỗ trợ phát hiện các lỗ hổng hoặc cấu hình sai. Bạn có thể tra cứu chi tiết tham số của từng lệnh bằng cách sử dụng [[my_knowlegde/concepts/linux-man-pages|lệnh man]].

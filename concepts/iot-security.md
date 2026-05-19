@@ -35,6 +35,6 @@ Một chuỗi bán lẻ lớn đã lắp đặt hệ thống điều hòa thông
 4. **Tắt các dịch vụ không cần thiết**: Giảm thiểu diện tích tấn công (attack surface).
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[network-security|An ninh mạng]]
-- [[cloud-security|An ninh đám mây]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/network-security|An ninh mạng]]
+- [[my_knowlegde/concepts/cloud-security|An ninh đám mây]]

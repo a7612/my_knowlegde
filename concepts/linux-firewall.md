@@ -68,6 +68,6 @@ Hành động thực hiện khi gói tin khớp với quy tắc:
 | `-m state` | Trạng thái kết nối (NEW, ESTABLISHED, RELATED) |
 
 ## Liên kết liên quan
-*   [[firewall|Thực thể Tường lửa]]
-*   [[network-security|Bảo mật Mạng]]
-*   [[linux-network-configuration|Cấu hình Mạng Linux]]
+*   [[my_knowlegde/entities/firewall|Thực thể Tường lửa]]
+*   [[my_knowlegde/concepts/network-security|Bảo mật Mạng]]
+*   [[my_knowlegde/concepts/linux-network-configuration|Cấu hình Mạng Linux]]

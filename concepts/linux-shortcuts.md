@@ -51,5 +51,5 @@ Các phím tắt giúp làm việc với dòng lệnh Linux nhanh chóng và hi�
 *   `[CTRL] + [-]`: Thu nhỏ (Zoom out).
 
 ## Liên kết liên quan
-*   [[linux-shell|Linux Shell]]
-*   [[linux-service-process-management|Quản lý Dịch vụ và Tiến trình]]
+*   [[my_knowlegde/concepts/linux-shell|Linux Shell]]
+*   [[my_knowlegde/concepts/linux-service-process-management|Quản lý Dịch vụ và Tiến trình]]

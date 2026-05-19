@@ -42,7 +42,7 @@ IPsec là bộ giao thức mạnh mẽ nhất được dùng trong VPN, hoạt �
 4.  **Tiết kiệm chi phí**: Tận dụng hạ tầng Internet thay vì thuê đường truyền riêng đắt đỏ.
 
 ## Liên kết liên quan
-- [[network-security|Bảo mật mạng]]
-- [[internet-architecture|Kiến trúc Internet]]
-- [[cryptography-basics|Mật mã học cơ bản]]
-- [[key-exchange|Cơ chế trao đổi khóa]]
+- [[my_knowlegde/concepts/network-security|Bảo mật mạng]]
+- [[my_knowlegde/concepts/internet-architecture|Kiến trúc Internet]]
+- [[my_knowlegde/concepts/cryptography-basics|Mật mã học cơ bản]]
+- [[my_knowlegde/concepts/key-exchange|Cơ chế trao đổi khóa]]

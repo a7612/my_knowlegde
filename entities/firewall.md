@@ -5,7 +5,7 @@ tags: ["networking", "security", "firewall"]
 
 # Tường lửa (Firewall)
 
-[[firewall|Tường lửa]] là một ứng dụng hoặc thiết bị bảo mật dùng để theo dõi và kiểm soát lưu lượng mạng ra vào dựa trên các quy tắc bảo mật đã được thiết lập.
+[[my_knowlegde/entities/firewall|Tường lửa]] là một ứng dụng hoặc thiết bị bảo mật dùng để theo dõi và kiểm soát lưu lượng mạng ra vào dựa trên các quy tắc bảo mật đã được thiết lập.
 
 ## Các loại tường lửa chi tiết
 
@@ -26,12 +26,12 @@ tags: ["networking", "security", "firewall"]
 * **Cơ chế**: Kết hợp kiểm tra trạng thái với các tính năng nâng cao như kiểm tra gói tin sâu (DPI), phát hiện/ngăn chặn xâm nhập (IDS/IPS) và kiểm soát ứng dụng.
 
 ### 5. Tường lửa Ứng dụng Web (Web Application Firewall - WAF)
-* **Cơ chế**: Hoạt động như một **[[proxies|Proxy ngược (Reverse Proxy)]]**, kiểm tra và lọc các yêu cầu HTTP/HTTPS độc hại nhắm vào ứng dụng web.
+* **Cơ chế**: Hoạt động như một **[[my_knowlegde/concepts/proxies|Proxy ngược (Reverse Proxy)]]**, kiểm tra và lọc các yêu cầu HTTP/HTTPS độc hại nhắm vào ứng dụng web.
 * **Ví dụ**: Cloudflare, ModSecurity.
 * **Tác dụng**: Chống lại các cuộc tấn công như SQL Injection, Cross-Site Scripting (XSS).
 
 ## Triển khai trên Linux
-Để biết chi tiết về cách cấu hình tường lửa trên hệ điều hành Linux, xem trang [[linux-firewall|Tường lửa Linux (Iptables)]].
+Để biết chi tiết về cách cấu hình tường lửa trên hệ điều hành Linux, xem trang [[my_knowlegde/concepts/linux-firewall|Tường lửa Linux (Iptables)]].
 
 ## Vị trí đặt tường lửa
 * **Mạng gia đình**: Thường tích hợp sẵn trong Router/Modem.

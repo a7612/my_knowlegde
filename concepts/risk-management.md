@@ -1,11 +1,11 @@
 ---
-sources: ["raw/Hack The Box/Introduction to Information Security/Introduction - Principles of Information Security.md", "raw/Hack The Box/Introduction to Information Security/Introduction - Structure of InfoSec.md"]
+sources: ["raw/Hack The Box/Introduction to Information Security/Introduction - Principles of Information Security.md", "raw/Hack The Box/Introduction to Information Security/Introduction - Structure of InfoSec.md", "raw/NIST/NIST.CSWP.29.pdf"]
 tags: ["security", "risk", "threat", "vulnerability"]
 ---
 
 # Quản lý rủi ro (Risk Management)
 
-Quản lý rủi ro là một quá trình liên tục nhằm xác định, đánh giá và giảm thiểu các khả năng xảy ra các sự cố gây hại cho tài sản của tổ chức.
+Quản lý rủi ro là một quá trình liên tục nhằm xác định, đánh giá và giảm thiểu các khả năng xảy ra các sự cố gây hại cho tài sản của tổ chức. Các tổ chức thường sử dụng các khung tiêu chuẩn như **[[my_knowlegde/concepts/nist-csf|NIST CSF 2.0]]** để hệ thống hóa quá trình này.
 
 ## Các khái niệm cơ bản
 
@@ -31,7 +31,15 @@ Lỗ hổng là một điểm yếu trong hệ thống có thể bị khai thác
 3. **Đánh giá tác động**: Xác định hậu quả của việc vi phạm an ninh.
 4. **Ưu tiên nỗ lực**: Tập trung nguồn lực vào các rủi ro quan trọng nhất.
 
+## Phương pháp quản lý rủi ro
+Các tổ chức có thể lựa chọn các cách ứng phó rủi ro khác nhau (theo NIST CSF):
+*   **Giảm thiểu (Mitigation)**: Triển khai các biện pháp kiểm soát để giảm khả năng hoặc tác động.
+*   **Chuyển giao (Transfer)**: Chuyển rủi ro sang bên thứ ba (ví dụ: mua bảo hiểm an ninh mạng).
+*   **Tránh (Avoidance)**: Loại bỏ nguyên nhân gây rủi ro (ví dụ: ngừng sử dụng một dịch vụ không an toàn).
+*   **Chấp nhận (Acceptance)**: Chấp nhận mức độ rủi ro hiện tại nếu chi phí khắc phục lớn hơn thiệt hại tiềm tàng.
+
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[security-principles|Các nguyên tắc an ninh thông tin]]
-- [[incident-management|Quản lý sự cố]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/nist-csf|Khung An ninh mạng NIST (CSF) 2.0]]
+- [[my_knowlegde/concepts/security-principles|Các nguyên tắc an ninh thông tin]]
+- [[my_knowlegde/concepts/incident-management|Quản lý sự cố]]

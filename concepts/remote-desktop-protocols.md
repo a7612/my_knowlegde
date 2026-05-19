@@ -41,6 +41,6 @@ VNC dựa trên giao thức RFB, cho phép điều khiển máy tính từ xa nh
 *   **Cài đặt (Ubuntu)**: Thường dùng gói `tigervnc-standalone-server` kết hợp với Desktop Manager nhẹ như `XFCE4`.
 
 ## Liên kết liên quan
-*   [[linux-network-services|Dịch vụ Mạng Linux]]
-*   [[network-security|Bảo mật Mạng]]
-*   [[linux-web-services|Dịch vụ Web]]
+*   [[my_knowlegde/concepts/linux-network-services|Dịch vụ Mạng Linux]]
+*   [[my_knowlegde/concepts/network-security|Bảo mật Mạng]]
+*   [[my_knowlegde/concepts/linux-web-services|Dịch vụ Web]]

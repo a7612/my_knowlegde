@@ -5,7 +5,7 @@ tags: ["networking", "hardware", "router"]
 
 # Bộ định tuyến (Router)
 
-[[router|Router]] là một thiết bị trung gian đóng vai trò cực kỳ quan trọng trong việc chuyển tiếp các gói dữ liệu giữa các mạng khác nhau và điều phối lưu lượng Internet.
+[[my_knowlegde/entities/router|Router]] là một thiết bị trung gian đóng vai trò cực kỳ quan trọng trong việc chuyển tiếp các gói dữ liệu giữa các mạng khác nhau và điều phối lưu lượng Internet.
 
 ## Đặc điểm chính
 * **Tầng OSI**: Hoạt động tại **Tầng mạng (Layer 3)**.

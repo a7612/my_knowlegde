@@ -68,7 +68,7 @@ NAC đảm bảo chỉ các thiết bị được ủy quyền và tuân thủ m
 4.  **Nmap**: Quét cổng và phát hiện dịch vụ.
 
 ## Liên kết liên quan
-*   [[linux-network-services|Dịch vụ Mạng Linux]]
-*   [[linux-firewall|Tường lửa Linux]]
-*   [[dns-service|Dịch vụ DNS]]
-*   [[dhcp-service|Dịch vụ DHCP]]
+*   [[my_knowlegde/concepts/linux-network-services|Dịch vụ Mạng Linux]]
+*   [[my_knowlegde/concepts/linux-firewall|Tường lửa Linux]]
+*   [[my_knowlegde/concepts/dns-service|Dịch vụ DNS]]
+*   [[my_knowlegde/concepts/dhcp-service|Dịch vụ DHCP]]

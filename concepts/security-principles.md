@@ -38,6 +38,6 @@ Tập trung vào việc xử lý đúng cách các thông tin cá nhân nhạy c
 * **Biện pháp triển khai**: Giảm thiểu dữ liệu (Data minimization), quản lý sự đồng ý (Consent management).
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[network-security|An ninh mạng]]
-- [[authentication-protocols|Giao thức xác thực]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/network-security|An ninh mạng]]
+- [[my_knowlegde/concepts/authentication-protocols|Giao thức xác thực]]

@@ -53,6 +53,6 @@ Cả hai mô hình đều cực kỳ hữu ích:
 *   **OSI**: Giúp chia nhỏ và phân tích chi tiết từng phần của luồng dữ liệu, đặc biệt hữu ích khi thực hiện **Phân tích lưu lượng mạng (Network Traffic Analysis)** để can thiệp hoặc nghe lén.
 
 ## Liên kết liên quan
-*   [[computer-network|Mạng máy tính]]
-*   [[network-protocols|Giao thức mạng]]
-*   [[network-security|Bảo mật mạng]]
+*   [[my_knowlegde/concepts/computer-network|Mạng máy tính]]
+*   [[my_knowlegde/concepts/network-protocols|Giao thức mạng]]
+*   [[my_knowlegde/concepts/network-security|Bảo mật mạng]]

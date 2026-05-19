@@ -37,6 +37,6 @@ Ngoài các thư mục giống Linux, Solaris có một số thư mục đáng c
 *   `/etc/dfs/dfstab`: File cấu hình chia sẻ tài nguyên (như NFS).
 
 ## Liên kết liên quan
-*   [[linux-distributions|Các bản phân phối Linux]]
-*   [[linux-file-system|Hệ thống tệp tin Linux]]
+*   [[my_knowlegde/entities/linux-distributions|Các bản phân phối Linux]]
+*   [[my_knowlegde/concepts/linux-file-system|Hệ thống tệp tin Linux]]
 *   [[unix|Unix (Tổng quan)]]

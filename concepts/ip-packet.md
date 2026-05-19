@@ -45,7 +45,7 @@ Trong quá trình **Network Sniffing**, nếu hai địa chỉ IP khác nhau g�
 *   **IP Spoofing**: Giả mạo địa chỉ IP nguồn trong Header để vượt qua các bộ lọc bảo mật hoặc thực hiện tấn công từ chối dịch vụ (DoS).
 
 ## Liên kết liên quan
-- [[ipv4-address|Địa chỉ IPv4]]
-- [[network-protocols|Giao thức mạng (TCP/UDP)]]
+- [[my_knowlegde/concepts/ipv4-address|Địa chỉ IPv4]]
+- [[my_knowlegde/concepts/network-protocols|Giao thức mạng (TCP/UDP)]]
 - [[icmp-protocol|Giao thức ICMP]]
-- [[addressing-and-routing|Định danh và Truyền thông]]
+- [[my_knowlegde/concepts/addressing-and-routing|Định danh và Truyền thông]]

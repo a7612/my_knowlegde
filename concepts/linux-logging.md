@@ -40,6 +40,6 @@ Hầu hết các file nhật ký được lưu trữ trong thư mục `/var/log/
 *   **Log Levels**: Cấu hình mức độ chi tiết của nhật ký (từ debug đến emergency).
 
 ## Liên kết liên quan
-*   [[linux-hardening|Tăng cường Bảo mật Linux]]
-*   [[linux-service-process-management|Quản lý Dịch vụ và Tiến trình]]
-*   [[linux-filtering|Lọc nội dung]]
+*   [[my_knowlegde/concepts/linux-hardening|Tăng cường Bảo mật Linux]]
+*   [[my_knowlegde/concepts/linux-service-process-management|Quản lý Dịch vụ và Tiến trình]]
+*   [[my_knowlegde/concepts/linux-filtering|Lọc nội dung]]

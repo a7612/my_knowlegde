@@ -32,7 +32,7 @@ Triết lý Linux tập trung vào sự đơn giản, tính mô-đun và sự c�
 * **Bootloader**: Đoạn mã hướng dẫn quá trình khởi động (ví dụ: GRUB).
 * **OS Kernel**: Thành phần chính quản lý tài nguyên phần cứng và I/O.
 * **Daemons**: Các dịch vụ chạy ngầm (lập lịch, in ấn, đa phương tiện).
-* **[[linux-shell|OS Shell]]**: Giao diện thông dịch lệnh giữa người dùng và hệ điều hành.
+* **[[my_knowlegde/concepts/linux-shell|OS Shell]]**: Giao diện thông dịch lệnh giữa người dùng và hệ điều hành.
 * **Graphics server**: Hệ thống con đồ họa (X-server) cho phép chạy các chương trình đồ họa.
 * **Window Manager (GUI)**: Giao diện đồ họa người dùng (GNOME, KDE, MATE, v.v.).
-* **Utilities**: Các ứng dụng thực hiện chức năng cụ thể cho người dùng.
+* **Utilities**: Các ứng dụng thực hiện chức năng cụ thể cho người dùng (Tra cứu chi tiết tại [[my_knowlegde/concepts/linux-man-pages|Man Pages]]).

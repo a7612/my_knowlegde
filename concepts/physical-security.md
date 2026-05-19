@@ -48,6 +48,6 @@ An ninh vật lý không chỉ là ổ khóa và lính canh, mà là sự kết 
 * Kiểm tra thời gian phản ứng của lực lượng bảo vệ.
 
 ## Liên kết liên quan
-- [[information-security|An ninh thông tin]]
-- [[operational-security|An ninh vận hành]]
-- [[cybersecurity-teams|Các đội ngũ an ninh mạng]]
+- [[my_knowlegde/concepts/information-security|An ninh thông tin]]
+- [[my_knowlegde/concepts/operational-security|An ninh vận hành]]
+- [[my_knowlegde/concepts/cybersecurity-teams|Các đội ngũ an ninh mạng]]

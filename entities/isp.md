@@ -5,7 +5,7 @@ tags: ["networking", "infrastructure", "isp"]
 
 # Nhà cung cấp dịch vụ Internet (ISP - Internet Service Provider)
 
-[[isp|ISP]] là một công ty cung cấp cho các cá nhân và tổ chức quyền truy cập vào Internet.
+[[my_knowlegde/entities/isp|ISP]] là một công ty cung cấp cho các cá nhân và tổ chức quyền truy cập vào Internet.
 
 ## Vai trò
 * **Kết nối**: Cung cấp hạ tầng để người dùng kết nối từ mạng cục bộ ([[local-area-network|LAN]]) vào mạng diện rộng ([[wide-area-network|WAN]]) toàn cầu.

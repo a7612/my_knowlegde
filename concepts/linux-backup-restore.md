@@ -23,7 +23,7 @@ Việc sao lưu dữ liệu thường xuyên là biện pháp thiết yếu đ�
 Dữ liệu sẽ được mã hóa trong suốt quá trình truyền tải, đảm bảo tính bảo mật và toàn vẹn.
 
 ## 3. Tự động hóa Sao lưu
-Sử dụng kết hợp **[[linux-task-scheduling|Cron]]** và **Rsync** để tự động hóa quy trình:
+Sử dụng kết hợp **[[my_knowlegde/concepts/linux-task-scheduling|Cron]]** và **Rsync** để tự động hóa quy trình:
 1. Tạo một script (ví dụ: `backup.sh`) chứa lệnh rsync.
 2. Thiết lập xác thực bằng khóa SSH (`ssh-keygen` và `ssh-copy-id`) để không cần nhập mật khẩu thủ công.
 3. Thêm script vào crontab để chạy theo định kỳ (ví dụ: hàng giờ).

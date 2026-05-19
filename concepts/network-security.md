@@ -5,7 +5,7 @@ tags: ["networking", "security", "cia-triad", "ids", "ips", "firewall", "vpn"]
 
 # Bảo mật mạng (Network Security)
 
-**Bảo mật mạng** là một thành phần quan trọng của [[information-security|An ninh thông tin]], tập trung vào việc bảo vệ hạ tầng mạng và dữ liệu truyền tải bên trong nó. Hãy tưởng tượng bảo mật mạng giống như hệ thống an ninh của một ngôi nhà: tường lửa là cửa ra vào, IDS/IPS là camera giám sát và báo động, còn VPN là một đường hầm riêng biệt và an toàn để bạn đi vào nhà.
+**Bảo mật mạng** là một thành phần quan trọng của [[my_knowlegde/concepts/information-security|An ninh thông tin]], tập trung vào việc bảo vệ hạ tầng mạng và dữ liệu truyền tải bên trong nó. Hãy tưởng tượng bảo mật mạng giống như hệ thống an ninh của một ngôi nhà: tường lửa là cửa ra vào, IDS/IPS là camera giám sát và báo động, còn VPN là một đường hầm riêng biệt và an toàn để bạn đi vào nhà.
 
 ## Các yếu tố cốt lõi của Bảo mật mạng
 

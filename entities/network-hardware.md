@@ -15,22 +15,22 @@ Là các thiết bị mà người dùng tương tác trực tiếp để gửi 
 ## 2. Thiết bị trung gian (Intermediary Devices)
 Đóng vai trò điều phối luồng dữ liệu giữa các thiết bị đầu cuối hoặc giữa các mạng khác nhau.
 
-### [[router|Bộ định tuyến (Router)]]
+### [[my_knowlegde/entities/router|Bộ định tuyến (Router)]]
 * **Tầng OSI**: Tầng 3 (Mạng).
 * **Chức năng**: Chuyển tiếp gói tin giữa các mạng khác nhau, xác định đường đi tốt nhất bằng bảng định tuyến và các giao thức như OSPF, BGP. Kết nối mạng LAN với Internet.
 * **Tính năng**: Thường tích hợp tường lửa và quản lý lưu lượng.
 
-### [[switch|Bộ chuyển mạch (Switch)]]
+### [[my_knowlegde/entities/switch|Bộ chuyển mạch (Switch)]]
 * **Tầng OSI**: Tầng 2 (Liên kết dữ liệu).
-* **Chức năng**: Kết nối các thiết bị trong cùng một mạng LAN. Sử dụng địa chỉ [[mac-address|MAC]] để chuyển dữ liệu đến đúng cổng của thiết bị nhận, giúp giảm tắc nghẽn.
+* **Chức năng**: Kết nối các thiết bị trong cùng một mạng LAN. Sử dụng địa chỉ [[my_knowlegde/concepts/mac-address|MAC]] để chuyển dữ liệu đến đúng cổng của thiết bị nhận, giúp giảm tắc nghẽn.
 
-### [[hub|Bộ tập trung (Hub)]]
+### [[my_knowlegde/entities/hub|Bộ tập trung (Hub)]]
 * **Tầng OSI**: Tầng 1 (Vật lý).
 * **Chức năng**: Thiết bị cơ bản kết nối nhiều thiết bị. Nó phát sóng (broadcast) mọi dữ liệu nhận được tới tất cả các cổng, gây ra sự kém hiệu quả và dễ va chạm dữ liệu. Hiện nay đã lỗi thời và được thay thế bởi Switch.
 
 ### [[network-interface-card|Thẻ giao tiếp mạng (NIC)]]
 * Thành phần phần cứng được cài đặt trong thiết bị để cho phép kết nối mạng.
-* Mỗi NIC có một địa chỉ [[mac-address|MAC]] duy nhất. Có thể là NIC có dây (Ethernet) hoặc không dây (Wi-Fi).
+* Mỗi NIC có một địa chỉ [[my_knowlegde/concepts/mac-address|MAC]] duy nhất. Có thể là NIC có dây (Ethernet) hoặc không dây (Wi-Fi).
 
 ## 3. Máy chủ (Servers)
 Là các máy tính mạnh mẽ cung cấp dịch vụ cho các máy tính khác (máy khách - clients).
@@ -47,5 +47,5 @@ Là các máy tính mạnh mẽ cung cấp dịch vụ cho các máy tính khác
 
 ## 4. Phương tiện và Phần mềm mạng
 * **Cáp và đầu nối**: Cáp Ethernet, đầu nối RJ-45, cáp quang.
-* **[[firewall|Tường lửa phần mềm (Software Firewall)]]**: Ứng dụng bảo mật kiểm soát lưu lượng mạng dựa trên các quy tắc (ví dụ: IPTables trên Linux).
+* **[[my_knowlegde/entities/firewall|Tường lửa phần mềm (Software Firewall)]]**: Ứng dụng bảo mật kiểm soát lưu lượng mạng dựa trên các quy tắc (ví dụ: IPTables trên Linux).
 * **Phần mềm quản lý mạng**: Công cụ theo dõi hiệu suất, cấu hình và phân tích lỗi.
